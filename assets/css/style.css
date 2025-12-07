@@ -308,6 +308,9 @@ justify-content: space-around;
   .story-2 {
     flex-direction: column;
   }
+  .about h1{
+    font-size: 1.6rem;
+  }
   .img-story {
     width: 100%;
   }
