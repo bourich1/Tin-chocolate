@@ -112,11 +112,6 @@ fetch("../../products.json")
                     </div>
                 </div>`;
       document.querySelector(".prudacts").innerHTML += card;
-      // 2. تقسيم المنتجات حسب الكاتيغوري
-      if (product.category === "Nos Créations") {
-        console.log(card);
-      } else if (product.category === "Collections Spéciales") {
-      }
-    });
+        });
   })
   .catch((err) => console.log("Erreur:", err));
