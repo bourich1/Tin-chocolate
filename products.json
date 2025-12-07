@@ -1,0 +1,375 @@
+{
+  "products": [
+    {
+      "id": "creation_figue_cafe",
+      "name": "Figue Café",
+      "description": "Ganache café avec Guanaja Noir 70% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_cafe.jpg",
+      "options": []
+    },
+    {
+      "id": "creation_figue_gingembre",
+      "name": "Figue Gingembre",
+      "description": "Ganache gingembre avec Guanaja Noir 70% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_gingembre.jpg",
+      "options": []
+    },
+    {
+      "id": "creation_figue_lotus",
+      "name": "Figue Lotus",
+      "description": "Praliné lotus avec Guanaja Noir 70% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_lotus.jpg",
+      "options": []
+    },
+    {
+      "id": "creation_figue_safran",
+      "name": "Figue Safran",
+      "description": "Ganache safran avec Guanaja Noir 70% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_safran.jpg",
+      "options": []
+    },
+    {
+      "id": "creation_figue_vanille",
+      "name": "Figue Vanille",
+      "description": "Ganache vanille avec Dulcey 35% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_vanille.jpg",
+      "options": []
+    },
+    {
+      "id": "creation_figue_framboise",
+      "name": "Figue Framboise",
+      "description": "Ganache framboise avec Guanaja Noir 70% et Jivara Lait 40%",
+      "category": "Nos Créations",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "figue_framboise.jpg",
+      "options": []
+    },
+
+    {
+      "id": "classic_rocher_amande",
+      "name": "Rocher Praliné Amande",
+      "description": "Rocher au praliné amande enrobé de chocolat au lait ou noir",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "rocher_amande.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_praline_noisette",
+      "name": "Praliné Noisette",
+      "description": "Praliné noisette au chocolat au lait ou noir",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "praline_noisette.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_ganache_menthe",
+      "name": "Ganache Menthe",
+      "description": "Ganache menthe au chocolat noir",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "ganache_menthe.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_praline_noisette_pistache",
+      "name": "Praliné Noisette/Pistache",
+      "description": "Praliné noisette et pistache au chocolat au lait",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "praline_noisette_pistache.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_praline_citron",
+      "name": "Praliné Citron",
+      "description": "Praliné citron au chocolat noir ou lait",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "praline_citron.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_praline_cacahuetes",
+      "name": "Praliné Cacahuètes",
+      "description": "Praliné cacahuètes au chocolat blond Dulcey",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "praline_cacahuetes.jpg",
+      "options": []
+    },
+    {
+      "id": "classic_grands_crus",
+      "name": "Grands Crus",
+      "description": "Chocolats grands crus lait et noir",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "grands_crus.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_sticks",
+      "name": "TIN Sticks",
+      "description": "Fines lamelles de pâte de figue enrobées de chocolat grands crus noir",
+      "category": "Nos Snacks",
+      "prix": 90,
+      "stars": 5,
+      "weight": 110,
+      "img": "tin_sticks.jpg",
+      "options": [
+        { "size": "3 pièces", "pieces": 3, "prix": 90 }
+      ]
+    },
+
+    {
+      "id": "snack_tin_coeur",
+      "name": "TIN Cœur",
+      "description": "Cœur Gianduja blond d’or",
+      "category": "Nos Snacks",
+      "prix": 45,
+      "stars": 4,
+      "weight": 50,
+      "img": "tin_coeur.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_licornes",
+      "name": "TIN Licornes",
+      "description": "Mini licornes en chocolat et figues — noir, lait, blanc et ruby",
+      "category": "Nos Snacks",
+      "prix": 80,
+      "stars": 4,
+      "weight": 110,
+      "img": "tin_licornes.jpg",
+      "options": [
+        { "size": "3 pièces", "pieces": 3, "prix": 80 }
+      ]
+    },
+
+    {
+      "id": "snack_tin_cigare",
+      "name": "TIN Cigare",
+      "description": "Cigare réaliste en chocolat noir Abinao 85% et pâte de figue",
+      "category": "Nos Snacks",
+      "prix": null,
+      "stars": 5,
+      "weight": null,
+      "img": "tin_cigare.jpg",
+      "options": [
+        { "size": "Boîte bois 450g", "pieces": 11, "prix": 650 },
+        { "size": "À l’unité 40g", "pieces": 1, "prix": 35 }
+      ]
+    },
+
+    {
+      "id": "snack_tin_barres",
+      "name": "TIN Barres",
+      "description": "Praliné et pâte de figue enrobés de chocolat noir 70%",
+      "category": "Nos Snacks",
+      "prix": 120,
+      "stars": 4,
+      "weight": 140,
+      "img": "tin_barres.jpg",
+      "options": [
+        { "size": "2 pièces", "pieces": 2, "prix": 120 }
+      ]
+    },
+
+    {
+      "id": "snack_tin_tablette_kunefa",
+      "name": "TIN Tablette Kunefa Pistache",
+      "description": "Tablette chocolat au lait garnie de pistache kunefa",
+      "category": "Nos Snacks",
+      "prix": 155,
+      "stars": 4,
+      "weight": null,
+      "img": "tin_tablette_kunefa.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_tablettes",
+      "name": "TIN Tablettes",
+      "description": "Variétés grands crus noir (Équateur 70%, Madagascar 64%) et claires (lait, blanc, blond caramel) avec éclats de fruits secs",
+      "category": "Nos Snacks",
+      "prix": 85,
+      "stars": 4,
+      "weight": 90,
+      "img": "tin_tablettes.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_escarpin",
+      "name": "TIN Escarpin",
+      "description": "Escarpin en chocolat garni de figue — décliné en noir, lait, blanc et ruby",
+      "category": "Nos Snacks",
+      "prix": 280,
+      "stars": 5,
+      "weight": 320,
+      "img": "tin_escarpin.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_batonnets",
+      "name": "TIN Bâtonnets",
+      "description": "Fins bâtonnets de figue enrobés de chocolat noir, lait et ruby",
+      "category": "Nos Snacks",
+      "prix": 90,
+      "stars": 4,
+      "weight": 100,
+      "img": "tin_batonnets.jpg",
+      "options": [
+        { "size": "6 pièces", "pieces": 6, "prix": 90 }
+      ]
+    },
+
+    {
+      "id": "snack_tin_pate_tartiner",
+      "name": "TIN Pâte à Tartiner",
+      "description": "Amlou chocolat — Guanaja Noir 70% / Jivara Lait 40%",
+      "category": "Nos Snacks",
+      "prix": 80,
+      "stars": 4,
+      "weight": null,
+      "img": "tin_pate_tartiner.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_blocs",
+      "name": "TIN Blocs — Le Goût du Maroc",
+      "description": "Assortiment de blocs figue noir 85%, noisette, amande, mix fruits ruby, cajou blond, macadamia lait",
+      "category": "Nos Snacks",
+      "prix": 135,
+      "stars": 5,
+      "weight": 150,
+      "img": "tin_blocs.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_labubu",
+      "name": "TIN Labubu",
+      "description": "Noisette croustillant Guanaja Noir 70%, pistache kunefa Jivara Lait 40%, cacahuète caramel beurre salé Dulcey 35%",
+      "category": "Nos Snacks",
+      "prix": 150,
+      "stars": 5,
+      "weight": 186,
+      "img": "tin_labubu.jpg",
+      "options": []
+    },
+
+    {
+      "id": "snack_tin_oeufs",
+      "name": "TIN Œufs",
+      "description": "Coque généreusement fourrée de praliné artisanal — chocolat noir, lait, blond et ruby",
+      "category": "Nos Snacks",
+      "prix": 135,
+      "stars": 5,
+      "weight": 150,
+      "img": "tin_oeufs.jpg",
+      "options": [
+        { "size": "Sachet 150g", "prix": 135 }
+      ]
+    },
+
+    {
+      "id": "special_prestance",
+      "name": "Boîte Prestance",
+      "description": "Coffret mixte de la collection L’Âge d’Or du Maroc Antique",
+      "category": "Collections Spéciales",
+      "prix": 210,
+      "stars": 5,
+      "weight": null,
+      "img": "prestance.jpg",
+      "options": []
+    },
+    {
+      "id": "special_apogee",
+      "name": "Boîte Apogée",
+      "description": "Coffret mixte de la collection L’Âge d’Or du Maroc Antique",
+      "category": "Collections Spéciales",
+      "prix": 450,
+      "stars": 5,
+      "weight": null,
+      "img": "apogee.jpg",
+      "options": []
+    },
+    {
+      "id": "special_erudition",
+      "name": "Boîte Erudition",
+      "description": "Coffret mixte de la collection L’Âge d’Or du Maroc Antique",
+      "category": "Collections Spéciales",
+      "prix": 350,
+      "stars": 5,
+      "weight": null,
+      "img": "erudition.jpg",
+      "options": []
+    },
+    {
+      "id": "special_triomphe",
+      "name": "Boîte Triomphe",
+      "description": "Coffret mixte de la collection L’Âge d’Or du Maroc Antique",
+      "category": "Collections Spéciales",
+      "prix": 650,
+      "stars": 5,
+      "weight": null,
+      "img": "triomphe.jpg",
+      "options": []
+    },
+    {
+      "id": "special_empire",
+      "name": "Boîte L’Empire",
+      "description": "Pièce maîtresse de la collection L’Âge d’Or du Maroc Antique",
+      "category": "Collections Spéciales",
+      "prix": 2300,
+      "stars": 5,
+      "weight": null,
+      "img": "empire.jpg",
+      "options": [
+        { "size": "VIP Mixte", "prix": 2300 }
+      ]
+    }
+  ]
+}
