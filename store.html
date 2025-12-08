@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- css -->
+    <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- ajax and jqury -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- ajax and jqury -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 
     <title>La Boutique , Tin chocolate</title>
+    <style>
+        body {
+            background-color: white !important;
+        }
+    </style>
 </head>
+
 <body>
-        <!-- header -->
+    <!-- header -->
     <header>
         <div class="logo">
             <img src="assets/images/logo.png" alt="Tin Chocolaty Logo">
@@ -40,156 +47,249 @@
 
             </div>
         </nav>
-        
+
 
     </header>
 
     <div class="store-container">
-         <div class="slider">
-      <!-- fade css -->
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 1</h1>
-          <p>Web Devoloper<br />The code for this Slider is provided below</p>
-        </div>
-        <img class="slider_img" src="https://image.slidesdocs.com/responsive-images/background/chocolate-candies-powerpoint-background_a2d1600119__960_540.jpg" />
-      </div>
+        <div class="slider">
+            <!-- fade css -->
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>IMAGE 1</h1>
+                    <p>Web Devoloper<br />The code for this Slider is provided below</p>
+                </div>
+                <img class="slider_img"
+                    src="https://image.slidesdocs.com/responsive-images/background/chocolate-candies-powerpoint-background_a2d1600119__960_540.jpg" />
+            </div>
 
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 2</h1>
-          <p>Web Devoloper<br />The code for this Slider is provided below</p>
-        </div>
-        <img class="slider_img" src="assets/images/nike.png" />
-      </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>IMAGE 2</h1>
+                    <p>Web Devoloper<br />The code for this Slider is provided below</p>
+                </div>
+                <img class="slider_img" src="assets/images/nike.png" />
+            </div>
 
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 3</h1>
-          <p>Web Devoloper<br />The code for this Slider is provided below</p>
-        </div>
-        <img class="slider_img" src="assets/images/instagram.png" />
-      </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>IMAGE 3</h1>
+                    <p>Web Devoloper<br />The code for this Slider is provided below</p>
+                </div>
+                <img class="slider_img" src="assets/images/instagram.png" />
+            </div>
 
-      <!-- onclick js -->
-      <a class="prev" onclick="plusSlides(-1)"
-        ><i class="bx bx-chevron-left"></i
-      ></a>
-      <a class="next" onclick="plusSlides(1)"
-        ><i class="bx bx-chevron-right"></i
-      ></a>
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)"><i class="bx bx-chevron-left"></i></a>
+            <a class="next" onclick="plusSlides(1)"><i class="bx bx-chevron-right"></i></a>
 
-      <div class="dotsbox" style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-      <!-- /onclick js -->
+            <div class="dotsbox" style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!-- /onclick js -->
         </div>
         <div class="prudacts-container">
-            <div class="btns-filter">
-                <h1>btns filter</h1>
+            <div class="titel">
+                <h3>L’instant chocolaté du moment</h3>
+                <p>Découvrez notre sélection gourmande du moment, une invitation à savourer des créations chocolatées
+                    audacieuses, raffinées et pleines de caractère. Chaque pièce incarne le savoir-faire artisanal de La
+                    Maison du Chocolat et promet une expérience gourmande inoubliable.</p>
             </div>
-            <div class="prudacts">
-               <!-- content dynamic -->
-            </div>
-            
-        </div>
-    </div>
+            <div class="all-category-prusacts">
 
-
-
-
-
-
-     <!-- footer -->
-     <footer class="site-footer">
-    <div class="container">
-        <div class="footer-content">
-            
-            <div class="footer-section ">
-                <img src="https://via.placeholder.com/150x50?text=LOGO" alt="Logo" class="footer-logo">
-                <p>
-                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore autem minus nobis culpa aspernatur? Reprehenderit necessitatibus itaque impedit voluptate officiis?
-                </p>
-            </div>
-
-            <div class="footer-section links">
-                <h3>pages links</h3>
-                <ul>
-                    <li><a href="index.html">maison</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="store.html">La Boutique</a></li>
-                    <li><a href="giftBoxes.html">Coffrets & Cadeaux</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section links">
-                <h3>Contactez-nous</h3>
-                <ul>
-                    <li><a href="tel:0537652647">0537652647</a></li>
-                    <li><a href="tel:0668094400">0668094400</a></li>
-                    <li><a href="https://maps.app.goo.gl/1YxHKgMU6iBBnVhy7">rabat square magasin  5 souissi rabat</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section social">
-                <h3>Suivez-nous</h3>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/tinchocolaty"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                <div class="titel-category">
+                    <h1>Nos Créations</h1>
+                    <div class="line"></div>
                 </div>
+
+                <div class="prudacts nos-Creations"></div>
+
+                <div class="titel-category">
+                    <h1>Nos Chocolats Classiques</h1>
+                    <div class="line"></div>
+                </div>
+
+                <div class="prudacts Nos-chocolats-classiques"></div>
+
+                <div class="titel-category">
+                    <h1>Nos Snacks</h1>
+                    <div class="line"></div>
+                </div>
+
+                <div class="prudacts nos-snacks"></div>
+
+                <div class="titel-category">
+                    <h1>Collections Spéciales</h1>
+                    <div class="line"></div>
+                </div>
+
+                <div class="prudacts collections-speciales"></div>
+               
             </div>
 
         </div>
     </div>
 
-    <div class="footer-bottom">
-        <p>&copy; 2026 tin Chocolat. All rights reserved.</p>
-    </div>
+
+
+
+
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-section ">
+                    <img src="https://via.placeholder.com/150x50?text=LOGO" alt="Logo" class="footer-logo">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore autem minus nobis culpa
+                        aspernatur? Reprehenderit necessitatibus itaque impedit voluptate officiis?
+                    </p>
+                </div>
+
+                <div class="footer-section links">
+                    <h3>pages links</h3>
+                    <ul>
+                        <li><a href="index.html">maison</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="store.html">La Boutique</a></li>
+                        <li><a href="giftBoxes.html">Coffrets & Cadeaux</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section links">
+                    <h3>Contactez-nous</h3>
+                    <ul>
+                        <li><a href="tel:0537652647">0537652647</a></li>
+                        <li><a href="tel:0668094400">0668094400</a></li>
+                        <li><a href="https://maps.app.goo.gl/1YxHKgMU6iBBnVhy7">rabat square magasin 5 souissi rabat</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section social">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/tinchocolaty"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 tin Chocolat. All rights reserved.</p>
+        </div>
     </footer>
 
     <!-- cart  -->
-     <div class="cart-container">
-    <button class="cart-toggle-btn">
-        <i class="fas fa-shopping-cart"></i>
-        <span class="cart-count">0</span>
-    </button>
-    
-    <div class="cart-sidebar">
-        <div class="cart-header">
-            <h3>Votre commande</h3>
-            <button class="close-cart">&times;</button>
-        </div>
-        <div class="cart-items">
-            <!-- content from js -->
-              <div class="cart-item">
-            <div class="cart-item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641" alt="Seafood Pastilla"></div>
-            <div class="cart-item-details">
-                <div class="cart-item-title">Seafood Pastilla</div>
-                <div class="cart-item-price">15.50 Dhs</div>
-                <div class="flex">
-                   <div class="cart-item-quantity">
-                    <button class="decrease-qty" data-id="4">-</button>
-                    <span>1</span>
-                    <button class="increase-qty" data-id="4">+</button>
-                </div>
-                <button class="remove-item" data-id="4">Remove </button>
-                </div>
-            </div></div>
-        </div>
-        <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span class="total-price">0.00 Dhs</span>
+    <div class="cart-container">
+        <button class="cart-toggle-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </button>
+
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Votre commande</h3>
+                <button class="close-cart">&times;</button>
             </div>
-            <button class="checkout-btn">Proceed to Checkout</button>
+            <div class="cart-items">
+                <!-- content from js -->
+                
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">0.00 Dhs</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
         </div>
     </div>
+
+    <!-- modal -->
+     <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="productModal">
+            <div class="close-btn" id="closeModal">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <!-- Product image will be inserted here -->
+                </div>
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <span class="modal-category" id="modalCategory"></span>
+                        <h2 class="modal-title" id="modalTitle"></h2>
+                        <div class="modal-rating">
+                            <div class="modal-stars" id="modalStars"></div>
+                            <span class="modal-review-count">Premium Quality</span>
+                        </div>
+                        <p class="modal-description" id="modalDescription"></p>
+                        <div class="modal-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value" id="modalWeight"></span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Price</span>
+                                <span class="spec-value" id="modalPrice"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-options" id="modalOptions">
+                        <!-- Options will be inserted here -->
+                    </div>
+                    
+                    <div class="modal-add-to-cart">
+                        <div class="modal-price-container">
+                            <div class="modal-price" id="modalMainPrice"></div>
+                        </div>
+                        <button class="add-to-cart" data-id="${product.id}">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- todas alert -->
+     <div id="toast" class="toast">تمت إضافة المنتج للسلة!</div>
+    <!-- model check out -->
+     <div class="checkout-overlay" id="checkoutModal">
+  <div class="checkout-modal">
+    
+    <h2 class="checkout-title">Checkout</h2>
+
+    <h3 class="section-title">Your Products</h3>
+    <div id="checkoutProducts"></div>
+
+    <h3 class="section-title">Your Information</h3>
+    <form id="checkoutForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      <input type="text" id="address" placeholder="Address" required>
+      
+      <div class="free-shipping">🚚 Free Shipping</div>
+
+      <button type="submit" class="confirm-btn">Confirm Order</button>
+    </form>
+
+    <button class="close-checkout">×</button>
+  </div>
+</div>
+
 
     <!-- script -->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
