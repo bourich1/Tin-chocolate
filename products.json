@@ -1,72 +1,262 @@
 {
   "products": [
-    {
-      "id": "creation_figue_cafe",
-      "name": "Figue Café",
-      "description": "Ganache café avec Guanaja Noir 70% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "assets/images/prudact.png",
-      "options": []
-    },
-    {
-      "id": "creation_figue_gingembre",
-      "name": "Figue Gingembre",
-      "description": "Ganache gingembre avec Guanaja Noir 70% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "figue_gingembre.jpg",
-      "options": []
-    },
-    {
-      "id": "creation_figue_lotus",
-      "name": "Figue Lotus",
-      "description": "Praliné lotus avec Guanaja Noir 70% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "figue_lotus.jpg",
-      "options": []
-    },
-    {
-      "id": "creation_figue_safran",
-      "name": "Figue Safran",
-      "description": "Ganache safran avec Guanaja Noir 70% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "figue_safran.jpg",
-      "options": []
-    },
-    {
-      "id": "creation_figue_vanille",
-      "name": "Figue Vanille",
-      "description": "Ganache vanille avec Dulcey 35% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "figue_vanille.jpg",
-      "options": []
-    },
-    {
-      "id": "creation_figue_framboise",
-      "name": "Figue Framboise",
-      "description": "Ganache framboise avec Guanaja Noir 70% et Jivara Lait 40%",
-      "category": "Nos Créations",
-      "prix": null,
-      "stars": 5,
-      "weight": null,
-      "img": "figue_framboise.jpg",
-      "options": []
-    },
+   {
+    "id": "figue_truffe",
+    "name": "Figue Truffe",
+    "description": "Ganache Truffe Guanaja Noir 70%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/Chocolate-Truffle.png",
+    "options": []
+  },
+  {
+    "id": "figue_cacahuetes",
+    "name": "Figue Cacahuètes",
+    "description": "Cacahuètes Dulcey 35% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_cacahuetes.png",
+    "options": []
+  },
+  {
+    "id": "figue_chocolat_orange",
+    "name": "Figue Chocolat Orange",
+    "description": "Praliné Orange Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_chocolat_orange.png",
+    "options": []
+  },
+  {
+    "id": "figue_noix_pecan",
+    "name": "Figue Noix de Pécan",
+    "description": "Praliné Noix de Pécan Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_noix_pecan.png",
+    "options": []
+  },
+  {
+    "id": "figue_safran",
+    "name": "Figue Safran",
+    "description": "Ganache Safran Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_safran.png",
+    "options": []
+  },
+  {
+    "id": "figue_caramel_beurre_sale",
+    "name": "Figue Caramel Beurre Salé",
+    "description": "Ganache Caramel Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_caramel_beurre_sale.png",
+    "options": []
+  },
+  {
+    "id": "figue_huile_argan",
+    "name": "Figue Huile d’Argan",
+    "description": "Praliné Argan Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_huile_argan.png",
+    "options": []
+  },
+  {
+    "id": "figue_cardamome",
+    "name": "Figue Cardamome",
+    "description": "Ganache Cardamome Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_cardamome.png",
+    "options": []
+  },
+  {
+    "id": "figue_vanille",
+    "name": "Figue Vanille",
+    "description": "Ganache Vanille Dulcey 35% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_vanille.png",
+    "options": []
+  },
+  {
+    "id": "figue_noix_coco",
+    "name": "Figue Noix de Coco",
+    "description": "Ganache Coco Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_noix_coco.png",
+    "options": []
+  },
+  {
+    "id": "figue_framboise",
+    "name": "Figue Framboise",
+    "description": "Ganache Framboise Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "./assets/images/products/nos-creations/figue_framboise.png",
+    "options": []
+  },
+  {
+    "id": "figue_cafe",
+    "name": "Figue Café",
+    "description": "Ganache Café Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_cafe.png",
+    "options": []
+  },
+  {
+    "id": "figue_rocher",
+    "name": "Figue Rocher",
+    "description": "Praliné Amande Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_rocher.png",
+    "options": []
+  },
+  {
+    "id": "figue_gianduja",
+    "name": "Figue Gianduja",
+    "description": "Praliné Gianduja Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_gianduja.png",
+    "options": []
+  },
+  {
+    "id": "figue_cannelle",
+    "name": "Figue Cannelle",
+    "description": "Ganache Cannelle Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_cannelle.png",
+    "options": []
+  },
+  {
+    "id": "figue_gingembre",
+    "name": "Figue Gingembre",
+    "description": "Ganache Gingembre Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_gingembre.png",
+    "options": []
+  },
+  {
+    "id": "figue_fleur_oranger",
+    "name": "Figue Fleur d’Oranger",
+    "description": "Ganache Fleur d’Oranger Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_fleur_oranger.png",
+    "options": []
+  },
+  {
+    "id": "figue_huile_olive",
+    "name": "Figue Huile d’Olive",
+    "description": "Praliné Huile d’Olive Chocolat Noir",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_huile_olive.png",
+    "options": []
+  },
+  {
+    "id": "figue_fruit_passion",
+    "name": "Figue Fruit de la Passion",
+    "description": "Ganache Passion Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_fruit_passion.png",
+    "options": []
+  },
+  {
+    "id": "figue_lotus",
+    "name": "Figue Lotus",
+    "description": "Praliné Lotus Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_lotus.png",
+    "options": []
+  },
+  {
+    "id": "figue_fruits_secs",
+    "name": "Figue Fruits Secs",
+    "description": "Praliné Fruits Secs Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_fruits_secs.png",
+    "options": []
+  },
+  {
+    "id": "figue_noisette",
+    "name": "Figue Noisette",
+    "description": "Praliné Noisette Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_noisette.png",
+    "options": []
+  },
+  {
+    "id": "figue_nougatine_amande",
+    "name": "Figue Nougatine d’Amande",
+    "description": "Praliné Amande Guanaja Noir 70% Lait Jivara 40%",
+    "category": "Nos Créations",
+    "prix": null,
+    "stars": 5,
+    "weight": null,
+    "img": "assets/images/figue_nougatine_amande.png",
+    "options": []
+  },
 
+
+
+    
     {
       "id": "classic_rocher_amande",
       "name": "Rocher Praliné Amande",

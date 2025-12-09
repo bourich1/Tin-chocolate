@@ -127,7 +127,7 @@ fetch("../../products.json")
       let card = `
         <div class="product-card">
           <div class="product-tumb">
-            <img src="assets/images/prudact.png" alt="${product.name}">
+            <img src=${product.img} alt="${product.name}">
           </div>
           <div class="product-details">
             <span class="product-catagory">${product.category}</span>
