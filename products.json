@@ -129,7 +129,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_cafe.png",
+    "img": "./assets/images/products/nos-creations/figue_cafe.png",
     "options": []
   },
   {
@@ -140,7 +140,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_rocher.png",
+    "img": "./assets/images/products/nos-creations/figue_rocher.png",
     "options": []
   },
   {
@@ -151,7 +151,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_gianduja.png",
+    "img": "./assets/images/products/nos-creations/figue_gianduja.png",
     "options": []
   },
   {
@@ -162,7 +162,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_cannelle.png",
+    "img": "./assets/images/products/nos-creations/figue_cannelle.png",
     "options": []
   },
   {
@@ -173,7 +173,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_gingembre.png",
+    "img": "./assets/images/products/nos-creations/figue_gingembre.png",
     "options": []
   },
   {
@@ -184,7 +184,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_fleur_oranger.png",
+    "img": "./assets/images/products/nos-creations/figue_fleur_oranger.png",
     "options": []
   },
   {
@@ -195,7 +195,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_huile_olive.png",
+    "img": "./assets/images/products/nos-creations/figue_huile_olive.png",
     "options": []
   },
   {
@@ -206,7 +206,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_fruit_passion.png",
+    "img": "./assets/images/products/nos-creations/figue_fruit_passion.png",
     "options": []
   },
   {
@@ -217,7 +217,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_lotus.png",
+    "img": "./assets/images/products/nos-creations/figue_lotus.png",
     "options": []
   },
   {
@@ -228,7 +228,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_fruits_secs.png",
+    "img": "./assets/images/products/nos-creations/figue_fruits_secs.png",
     "options": []
   },
   {
@@ -239,7 +239,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_noisette.png",
+    "img": "./assets/images/products/nos-creations/figue_noisette.png",
     "options": []
   },
   {
@@ -250,7 +250,7 @@
     "prix": null,
     "stars": 5,
     "weight": null,
-    "img": "assets/images/figue_nougatine_amande.png",
+    "img": "./assets/images/products/nos-creations/figue_nougatine_amande.png",
     "options": []
   },
 
@@ -265,7 +265,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "rocher_amande.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_rocher_amande.png",
       "options": []
     },
     {
@@ -276,7 +276,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "praline_noisette.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_praline_noisette.png",
       "options": []
     },
     {
@@ -287,7 +287,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "ganache_menthe.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_ganache_menthe.png",
       "options": []
     },
     {
@@ -298,7 +298,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "praline_noisette_pistache.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_praline_noisette_pistache.png",
       "options": []
     },
     {
@@ -309,7 +309,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "praline_citron.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_praline_citron.png",
       "options": []
     },
     {
@@ -320,7 +320,7 @@
       "prix": null,
       "stars": 4,
       "weight": null,
-      "img": "praline_cacahuetes.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_praline_cacahuetes.png",
       "options": []
     },
     {
@@ -331,9 +331,137 @@
       "prix": null,
       "stars": 5,
       "weight": null,
-      "img": "grands_crus.jpg",
+      "img": "./assets/images/products/nos-chocolats-classiques/classic_grands_crus.png",
       "options": []
     },
+    {
+      "id": "praline_pistage",
+      "name": "praline pistache",
+      "description": "kunefe au chocolate au lait",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "./assets/images/products/nos-chocolats-classiques/praline_pistage.png",
+      "options": []
+    },
+    {
+      "id": "praline_crunchy",
+      "name": "praline crunchy",
+      "description": "noisette ou chocolate au lait",
+      "category": "Nos Chocolats Classiques",
+      "prix": null,
+      "stars": 4,
+      "weight": null,
+      "img": "./assets/images/products/nos-chocolats-classiques/praline_crunchy.png",
+      "options": []
+    },
+    {
+    "id": "ganache_caramel",
+    "name": "Ganache Caramel",
+    "description": "Beurre salé ou Chocolat noir",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/ganache_caramel.png",
+    "options": []
+  },
+  {
+    "id": "ganache_vanille",
+    "name": "Ganache Vanille",
+    "description": "Dulcey",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/ganache_vanille.png",
+    "options": []
+  },
+  {
+    "id": "ganache_cafe",
+    "name": "Ganache Café",
+    "description": "Pur Arabica",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/ganache_cafe.png",
+    "options": []
+  },
+  {
+    "id": "praline_citron",
+    "name": "Praliné Citron",
+    "description": "Au chocolat noir ou lait",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/praline_citron.png",
+    "options": []
+  },
+  {
+    "id": "ganache_fruits_rouges",
+    "name": "Ganache Fruits Rouges",
+    "description": "Cassis, framboise - Chocolat noir et lait",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/ganache_fruits_rouges.png",
+    "options": []
+  },
+  {
+    "id": "praline_amande",
+    "name": "Praliné Amande",
+    "description": "Au chocolat au lait",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/praline_amande.png",
+    "options": []
+  },
+  {
+    "id": "praline_coconut_crunchy",
+    "name": "Praliné Coconut Crunchy",
+    "description": "",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/praline_coconut_crunchy.png",
+    "options": []
+  },
+  {
+    "id": "praline_lotus",
+    "name": "Praliné Lotus",
+    "description": "Au chocolat au lait",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/praline_lotus.png",
+    "options": []
+  },
+  {
+    "id": "praline_amande_huile_argan",
+    "name": "Praliné Amande et Huile d'Argan",
+    "description": "Au chocolat noir et lait",
+    "category": "Nos Chocolats Classiques",
+    "prix": null,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-chocolats-classiques/praline_amande_huile_argan.png",
+    "options": []
+  },
+    
+
+
+
+
+
+
 
     {
       "id": "snack_tin_sticks",
@@ -343,7 +471,7 @@
       "prix": 90,
       "stars": 5,
       "weight": 110,
-      "img": "tin_sticks.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_sticks.png",
       "options": [
         { "size": "3 pièces", "pieces": 3, "prix": 90 }
       ]
@@ -357,7 +485,7 @@
       "prix": 45,
       "stars": 4,
       "weight": 50,
-      "img": "tin_coeur.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_coeur.png",
       "options": []
     },
 
@@ -369,7 +497,7 @@
       "prix": 80,
       "stars": 4,
       "weight": 110,
-      "img": "tin_licornes.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_licornes.png",
       "options": [
         { "size": "3 pièces", "pieces": 3, "prix": 80 }
       ]
@@ -383,7 +511,7 @@
       "prix": null,
       "stars": 5,
       "weight": null,
-      "img": "tin_cigare.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_cigare.png",
       "options": [
         { "size": "Boîte bois 450g", "pieces": 11, "prix": 650 },
         { "size": "À l’unité 40g", "pieces": 1, "prix": 35 }
@@ -398,7 +526,7 @@
       "prix": 120,
       "stars": 4,
       "weight": 140,
-      "img": "tin_barres.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_barres.png",
       "options": [
         { "size": "2 pièces", "pieces": 2, "prix": 120 }
       ]
@@ -412,7 +540,7 @@
       "prix": 155,
       "stars": 4,
       "weight": null,
-      "img": "tin_tablette_kunefa.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_tablette_kunefa.png",
       "options": []
     },
 
@@ -424,7 +552,7 @@
       "prix": 85,
       "stars": 4,
       "weight": 90,
-      "img": "tin_tablettes.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_tablettes.png",
       "options": []
     },
 
@@ -436,7 +564,7 @@
       "prix": 280,
       "stars": 5,
       "weight": 320,
-      "img": "tin_escarpin.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_escarpin.png",
       "options": []
     },
 
@@ -448,7 +576,7 @@
       "prix": 90,
       "stars": 4,
       "weight": 100,
-      "img": "tin_batonnets.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_batonnets.png",
       "options": [
         { "size": "6 pièces", "pieces": 6, "prix": 90 }
       ]
@@ -462,7 +590,7 @@
       "prix": 80,
       "stars": 4,
       "weight": null,
-      "img": "tin_pate_tartiner.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_pate_tartiner.png",
       "options": []
     },
 
@@ -474,7 +602,7 @@
       "prix": 135,
       "stars": 5,
       "weight": 150,
-      "img": "tin_blocs.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_blocs.png",
       "options": []
     },
 
@@ -486,7 +614,7 @@
       "prix": 150,
       "stars": 5,
       "weight": 186,
-      "img": "tin_labubu.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_labubu.png",
       "options": []
     },
 
@@ -498,11 +626,17 @@
       "prix": 135,
       "stars": 5,
       "weight": 150,
-      "img": "tin_oeufs.jpg",
+      "img": "./assets/images/products/nos-snacks/snack_tin_oeufs.png",
       "options": [
         { "size": "Sachet 150g", "prix": 135 }
       ]
     },
+
+
+
+
+
+
 
     {
       "id": "special_prestance",
@@ -512,7 +646,7 @@
       "prix": 210,
       "stars": 5,
       "weight": null,
-      "img": "prestance.jpg",
+      "img": "./assets/images/products/collections-speciales/special_prestance.png",
       "options": []
     },
     {
@@ -523,7 +657,7 @@
       "prix": 450,
       "stars": 5,
       "weight": null,
-      "img": "apogee.jpg",
+      "img": "./assets/images/products/collections-speciales/special_apogee.png",
       "options": []
     },
     {
@@ -534,7 +668,7 @@
       "prix": 350,
       "stars": 5,
       "weight": null,
-      "img": "erudition.jpg",
+      "img": "./assets/images/products/collections-speciales/special_erudition.png",
       "options": []
     },
     {
@@ -545,7 +679,7 @@
       "prix": 650,
       "stars": 5,
       "weight": null,
-      "img": "triomphe.jpg",
+      "img": "./assets/images/products/collections-speciales/special_erudition.png",
       "options": []
     },
     {
@@ -556,10 +690,57 @@
       "prix": 2300,
       "stars": 5,
       "weight": null,
-      "img": "empire.jpg",
+      "img": "./assets/images/products/collections-speciales/special_empire.png",
       "options": [
         { "size": "VIP Mixte", "prix": 2300 }
       ]
-    }
+    },
+
+
+    {
+    "id": "mesimsem_280",
+    "name": "Mesimsem",
+    "description": "Boite Mixte (en grammage)",
+    "category": "Collections Spéciales",
+    "prix": 280,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/collections-speciales/mesimsem_280.png",
+    "options": []
+  },
+  {
+    "id": "mesimsem_380",
+    "name": "Mesimsem",
+    "description": "Boite Mixte (en grammage)",
+    "category": "Collections Spéciales",
+    "prix": 380,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/collections-speciales/mesimsem_380.png",
+    "options": []
+  },
+  {
+    "id": "mesimsem_480",
+    "name": "Mesimsem",
+    "description": "Boite Mixte (en grammage)",
+    "category": "Collections Spéciales",
+    "prix": 480,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/collections-speciales/mesimsem_480.png",
+    "options": []
+  },
+  {
+    "id": "mesimsem_670",
+    "name": "Mesimsem",
+    "description": "Boite Mixte (en grammage)",
+    "category": "Collections Spéciales",
+    "prix": 670,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/collections-speciales/mesimsem_670.png",
+    "options": []
+  }
+
   ]
 }

@@ -41,49 +41,6 @@ document.querySelector(".close-cart").addEventListener("click", () => {
   document.querySelector(".cart-sidebar").classList.remove("open");
 });
 
-// slide
-
-const myslide = document.querySelectorAll(".myslide"),
-  dot = document.querySelectorAll(".dot");
-let counter = 1;
-slidefun(counter);
-
-let timer = setInterval(autoSlide, 8000);
-function autoSlide() {
-  counter += 1;
-  slidefun(counter);
-}
-function plusSlides(n) {
-  counter += n;
-  slidefun(counter);
-  resetTimer();
-}
-function currentSlide(n) {
-  counter = n;
-  slidefun(counter);
-  resetTimer();
-}
-function resetTimer() {
-  clearInterval(timer);
-  timer = setInterval(autoSlide, 8000);
-}
-function slidefun(n) {
-  let i;
-  for (i = 0; i < myslide.length; i++) {
-    myslide[i].style.display = "none";
-  }
-  for (i = 0; i < dot.length; i++) {
-    dot[i].className = dot[i].className.replace(" active", "");
-  }
-  if (n > myslide.length) {
-    counter = 1;
-  }
-  if (n < 1) {
-    counter = myslide.length;
-  }
-  myslide[counter - 1].style.display = "block";
-  dot[counter - 1].className += " active";
-}
 
 
 
@@ -104,6 +61,56 @@ function slidefun(n) {
 
 
 
+// fetch JSON data to cadeux page 
+fetch("../../cadeux.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const products = data.products;
+    products.forEach((p) => (p.quantity = 1));
+
+    products.forEach((product) => {
+      let card = `
+        <div class="product-card">
+          <div class="product-tumb">
+            <img src=${product.img} alt="${product.name}">
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">${product.category}</span>
+            <h4>${product.name}</h4>
+            <p>${product.description}</p>
+            <div class="product-bottom-details">
+              ${
+                product.prix
+                  ? `<div class="product-price">${product.prix}DH</div>`
+                  : `<div class="product-price"></div>`
+              }
+              <div class="product-actions">
+    <button class="open-modal" data-id="${product.id}">
+        <i class="fa-solid fa-eye"></i>
+    </button>
+    <button class="add-to-cart" data-id="${product.id}">
+        <i class="fa-solid fa-plus"></i>
+    </button>
+</div>
+            </div>
+          </div>
+        </div>`;
+        console.log(card);
+        
+
+      if (product.category === "Nos Classiques") {
+        document.querySelector(".nos-classiques").innerHTML += card;
+      }else if(product.category === "Meilleures Cadeaux"){
+        document.querySelector(".meilleures-cadeaux").innerHTML += card;
+      }else{
+        document.querySelector(".collection-ceramique").innerHTML += card;
+      }
+    });
+
+    addProductToCart(products);
+    setupModalOpen(products);
+  })
+  .catch((err) => console.log("Erreur:", err));
 
 
 
@@ -116,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
   showDataToCart();
 });
 
-// fetch JSON
+// fetch JSON to botique page
 fetch("../../products.json")
   .then((res) => res.json())
   .then((data) => {
@@ -378,8 +385,8 @@ function openProductModal(product) {
                   .map(
                     (opt) => `
                     <button class="option-btn" data-price="${opt.prix}">
-                        ${opt.size}
-                        <span class="option-details">${opt.pieces} pieces — ${opt.prix} DH</span>
+                        ${opt.weight ? opt.weight : opt.pieces}
+                        <span class="option-details">${opt.pieces ? opt.pieces : opt.weight} pieces — ${opt.prix} DH</span>
                     </button>
                 `
                   )

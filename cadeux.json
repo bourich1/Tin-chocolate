@@ -1,0 +1,259 @@
+{
+  "products": [
+    {
+    "id": "boite_hassan_rabat",
+    "name": "Boîte Hassan Rabat",
+    "description": "Tablette framboise pistache et figues aux chocolat",
+    "category": "Nos Classiques",
+    "prix": 300,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-classiques/boite_hassan_rabat.png",
+    "options": []
+  },
+  {
+    "id": "coffret_cuir_tin",
+    "name": "Coffret Cuir TIN",
+    "description": "Coffret cuir premium",
+    "category": "Nos Classiques",
+    "prix": 1500,
+    "stars": null,
+    "weight": "1kg",
+    "img": "./assets/images/products/nos-classiques/coffret_cuir_tin.png",
+    "options": []
+  },
+  {
+    "id": "nos_ballotins",
+    "name": "Nos ballotins",
+    "description": "Ballotins de chocolats assortis disponibles en plusieurs tailles",
+    "category": "Nos Classiques",
+    "prix": 113,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/nos-classiques/nos_ballotins.png",
+    "options": [
+      {
+        "weight": "125g",
+        "prix": 113
+      },
+      {
+        "weight": "250g",
+        "prix": 225
+      },
+      {
+        "weight": "500g",
+        "prix": 450
+      },
+      {
+        "weight": "1kg",
+        "prix": 900
+      }
+    ]
+  },
+  {
+    "id": "le_rond_authentique",
+    "name": "Le Rond Authentique",
+    "description": "Boîte ronde authentique de chocolats",
+    "category": "Nos Classiques",
+    "prix": 2000,
+    "stars": null,
+    "weight": "1200g",
+    "img": "./assets/images/products/nos-classiques/le_rond_authentique.png",
+    "options": []
+  },
+  {
+    "id": "boite_metallique",
+    "name": "Boîte métallique",
+    "description": "Boîte métallique élégante",
+    "category": "Nos Classiques",
+    "prix": 520,
+    "stars": null,
+    "weight": "24 pièces",
+    "img": "./assets/images/products/nos-classiques/boite_metallique.png",
+    "options": []
+  },
+
+  
+  {
+      "id": "boite_chocolats_assortis",
+      "name": "Boîte de Chocolats Assortis",
+      "description": "Boîte de chocolats assortis disponible en plusieurs tailles",
+      "category": "Meilleures Cadeaux",
+      "prix": 100,
+      "stars": null,
+      "weight": null,
+      "img": "./assets/images/products/meilleures-cadeaux/boite_chocolats_assortis.png",
+      "options": [
+          {
+              "pieces": "4 Pièces",
+              "prix": 100
+            },
+            {
+                "pieces": "9 Pièces",
+                "prix": 210
+            },
+            {
+                "pieces": "15 Pièces",
+                "prix": 310
+            },
+            {
+                "pieces": "21 Pièces",
+                "prix": 450
+            },
+            {
+                "pieces": "30 Pièces",
+                "prix": 640
+            }
+        ]
+    },
+
+
+  {
+    "id": "ceramique_age_dor",
+    "name": "Céramique L'Âge d'Or",
+    "description": "Collection céramique artisanale L'Âge d'Or avec chocolats assortis",
+    "category": "Collection Céramique L'Âge d'Or",
+    "prix": 800,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/meilleures-cadeaux/ceramique_age_dor.png",
+    "options": [
+      {
+        "size": "P",
+        "weight": "500 G",
+        "prix": 800
+      },
+      {
+        "size": "M",
+        "weight": "700 G",
+        "prix": 1000
+      },
+      {
+        "size": "G",
+        "weight": "1.5 KG",
+        "prix": 1800
+      }
+    ]
+  },
+
+
+  {
+  "id": "collection_souffle_jasmin",
+  "name": "Collection Souffle de Jasmin",
+  "description": "Collection élégante de chocolats présentée dans des coupes dorées",
+  "category": "Meilleures Cadeaux",
+  "prix": 1400,
+  "stars": null,
+  "weight": null,
+  "img": "./assets/images/products/meilleures-cadeaux/collection_souffle_jasmin.png",
+  "options": [
+    {
+      "weight": "500 G",
+      "prix": 1400
+    },
+    {
+      "weight": "800 G",
+      "prix": 1700
+    },
+    {
+      "weight": "1 KG",
+      "prix": 2000
+    }
+  ]
+},
+{
+  "id": "collection_hirondelles_tetouan",
+  "name": "Collection Hirondelles de Tétouan",
+  "description": "Collection luxueuse de chocolats présentée dans des plats élégants sur pieds dorés",
+  "category": "Meilleures Cadeaux",
+  "prix": 1600,
+  "stars": null,
+  "weight": null,
+  "img": "./assets/images/products/meilleures-cadeaux/collection_hirondelles_tetouan.png",
+  "options": [
+    {
+      "weight": "850 G",
+      "prix": 1600
+    },
+    {
+      "weight": "1.5 KG",
+      "prix": 3000
+    },
+    {
+      "weight": "1 KG",
+      "prix": 2000
+    }
+  ]
+},
+{
+    "id": "collection_souffle_age_dor",
+    "name": "Collection Le Souffle de L'Âge d'Or",
+    "description": "Collection premium de chocolats présentée dans des coupes en verre soufflé artisanal aux couleurs vibrantes",
+    "category": "Meilleures Cadeaux",
+    "prix": 2100,
+    "stars": null,
+    "weight": null,
+    "img": "./assets/images/products/meilleures-cadeaux/collection_souffle_age_dor.png",
+    "options": [
+      {
+        "weight": "1400 G",
+        "prix": 2500
+      },
+      {
+        "weight": "2390 G",
+        "prix": 3500
+      },
+      {
+        "weight": "1820 G",
+        "prix": 2500
+      },
+      {
+        "weight": "2500 G",
+        "prix": 3500
+      }
+    ]
+  },
+  {
+  "id": "collection_serenite_or",
+  "name": "Collection Sérénité d'Or",
+  "description": "Collection prestigieuse de chocolats présentée dans un grand plateau doré.",
+  "category": "Meilleures Cadeaux",
+  "prix": null,
+  "stars": null,
+  "weight": null,
+  "img": "./assets/images/products/meilleures-cadeaux/collection_serenite_or.png",
+  "options": [
+    {
+      "weight": "1 KG",
+      "prix": 2750
+    },
+    {
+      "weight": "2 KG",
+      "prix": 3600
+    },
+    {
+      "weight": "3 KG",
+      "prix": 4800
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}
