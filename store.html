@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explorez la boutique Tin Chocolate et retrouvez nos chocolats artisanaux, ganaches créatives, bonbons raffinés et coffrets cadeaux élégants. Des recettes premium, fabriquées à la main avec des ingrédients naturels. Livraison rapide au Maroc.">
+    <meta name="description"
+        content="Explorez la boutique Tin Chocolate et retrouvez nos chocolats artisanaux, ganaches créatives, bonbons raffinés et coffrets cadeaux élégants. Des recettes premium, fabriquées à la main avec des ingrédients naturels. Livraison rapide au Maroc.">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -60,8 +61,7 @@
                     <h1>IMAGE 1</h1>
                     <p>Web Devoloper<br />The code for this Slider is provided below</p>
                 </div>
-                <img class="slider_img"
-                    src="assets/images/slide1.jpg" />
+                <img class="slider_img" src="assets/images/slide1.jpg" />
             </div>
 
             <div class="myslide fade">
@@ -94,9 +94,9 @@
         <div class="prudacts-container">
             <div class="titel">
                 <h3>L’instant chocolaté du moment</h3>
-                <p>Découvrez notre sélection gourmande du moment, une invitation à savourer des créations chocolatées
-                    audacieuses, raffinées et pleines de caractère. Chaque pièce incarne le savoir-faire artisanal de La
-                    Maison du Chocolat et promet une expérience gourmande inoubliable.</p>
+                <p>Découvrez notre sélection gourmande de coffrets et créations chocolatées : audacieuses, raffinées et
+                    pleines de caractère. Chaque pièce reflète le savoir-faire artisanal de Tin Chocolate et promet une
+                    expérience gourmande inoubliable.</p>
             </div>
             <div class="all-category-prusacts">
 
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="prudacts collections-speciales"></div>
-               
+
             </div>
 
         </div>
@@ -202,7 +202,7 @@
             </div>
             <div class="cart-items">
                 <!-- content from js -->
-                
+
             </div>
             <div class="cart-footer">
                 <div class="cart-total">
@@ -215,7 +215,7 @@
     </div>
 
     <!-- modal -->
-     <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-overlay" id="modalOverlay">
         <div class="modal" id="productModal">
             <div class="close-btn" id="closeModal">
                 <i class="fas fa-times"></i>
@@ -244,11 +244,11 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="modal-options" id="modalOptions">
                         <!-- Options will be inserted here -->
                     </div>
-                    
+
                     <div class="modal-add-to-cart">
                         <div class="modal-price-container">
                             <div class="modal-price" id="modalMainPrice"></div>
@@ -263,30 +263,30 @@
         </div>
     </div>
     <!-- todas alert -->
-     <div id="toast" class="toast">تمت إضافة المنتج للسلة!</div>
+    <div id="toast" class="toast">تمت إضافة المنتج للسلة!</div>
     <!-- model check out -->
-     <div class="checkout-overlay" id="checkoutModal">
-  <div class="checkout-modal">
-    
-    <h2 class="checkout-title">Checkout</h2>
+    <div class="checkout-overlay" id="checkoutModal">
+        <div class="checkout-modal">
 
-    <h3 class="section-title">Your Products</h3>
-    <div id="checkoutProducts"></div>
+            <h2 class="checkout-title">Checkout</h2>
 
-    <h3 class="section-title">Your Information</h3>
-    <form id="checkoutForm">
-      <input type="text" id="name" placeholder="Full Name" required>
-      <input type="text" id="phone" placeholder="Phone Number" required>
-      <input type="text" id="address" placeholder="Address" required>
-      
-      <div class="free-shipping">🚚 Free Shipping</div>
+            <h3 class="section-title">Your Products</h3>
+            <div id="checkoutProducts"></div>
 
-      <button type="submit" class="confirm-btn">Confirm Order</button>
-    </form>
+            <h3 class="section-title">Your Information</h3>
+            <form id="checkoutForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="address" placeholder="Address" required>
 
-    <button class="close-checkout">×</button>
-  </div>
-</div>
+                <div class="free-shipping">🚚 Free Shipping</div>
+
+                <button type="submit" class="confirm-btn">Confirm Order</button>
+            </form>
+
+            <button class="close-checkout">×</button>
+        </div>
+    </div>
 
 
     <!-- script -->
@@ -294,47 +294,47 @@
     <script>
         // slide
 
-const myslide = document.querySelectorAll(".myslide"),
-  dot = document.querySelectorAll(".dot");
-let counter = 1;
-slidefun(counter);
+        const myslide = document.querySelectorAll(".myslide"),
+            dot = document.querySelectorAll(".dot");
+        let counter = 1;
+        slidefun(counter);
 
-let timer = setInterval(autoSlide, 8000);
-function autoSlide() {
-  counter += 1;
-  slidefun(counter);
-}
-function plusSlides(n) {
-  counter += n;
-  slidefun(counter);
-  resetTimer();
-}
-function currentSlide(n) {
-  counter = n;
-  slidefun(counter);
-  resetTimer();
-}
-function resetTimer() {
-  clearInterval(timer);
-  timer = setInterval(autoSlide, 8000);
-}
-function slidefun(n) {
-  let i;
-  for (i = 0; i < myslide.length; i++) {
-    myslide[i].style.display = "none";
-  }
-  for (i = 0; i < dot.length; i++) {
-    dot[i].className = dot[i].className.replace(" active", "");
-  }
-  if (n > myslide.length) {
-    counter = 1;
-  }
-  if (n < 1) {
-    counter = myslide.length;
-  }
-  myslide[counter - 1].style.display = "block";
-  dot[counter - 1].className += " active";
-}
+        let timer = setInterval(autoSlide, 8000);
+        function autoSlide() {
+            counter += 1;
+            slidefun(counter);
+        }
+        function plusSlides(n) {
+            counter += n;
+            slidefun(counter);
+            resetTimer();
+        }
+        function currentSlide(n) {
+            counter = n;
+            slidefun(counter);
+            resetTimer();
+        }
+        function resetTimer() {
+            clearInterval(timer);
+            timer = setInterval(autoSlide, 8000);
+        }
+        function slidefun(n) {
+            let i;
+            for (i = 0; i < myslide.length; i++) {
+                myslide[i].style.display = "none";
+            }
+            for (i = 0; i < dot.length; i++) {
+                dot[i].className = dot[i].className.replace(" active", "");
+            }
+            if (n > myslide.length) {
+                counter = 1;
+            }
+            if (n < 1) {
+                counter = myslide.length;
+            }
+            myslide[counter - 1].style.display = "block";
+            dot[counter - 1].className += " active";
+        }
     </script>
 </body>
 
