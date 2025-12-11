@@ -1020,6 +1020,8 @@ justify-content: space-around;
   margin: 0 auto;
   background: #fafafa;
   cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 @media (max-width: 992px) {
