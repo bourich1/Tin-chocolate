@@ -52,6 +52,9 @@ header nav ul li a {
   text-decoration: none;
   transition: all 0.5s;
 }
+.active-link {
+  color: var(--secondary-color) !important;
+}
 header nav ul li a:hover {
   color: var(--secondary-color);
 }
@@ -68,6 +71,7 @@ header nav .icons-nav {
   cursor: pointer;
   font-size: 1.5rem;
 }
+
 /* responsive header */
 @media (max-width: 768px) {
   header nav .icons-nav {
@@ -436,6 +440,7 @@ justify-content: space-around;
 .site-footer {
     background-color: #292929; 
     background-image: url('../images/pattern-bg.png');
+    z-index: 77;
     color: #ffffff;
     padding-top: 40px;
     font-family: sans-serif;
@@ -977,14 +982,6 @@ justify-content: space-around;
     }
 }
 
-/* btns filter */
-.btns-filter{
-  height: 120px;
-  background-color: rgb(53, 53, 53);
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-}
 
 /* cards */
 
@@ -1010,7 +1007,6 @@ justify-content: space-around;
   width: 90%;
   margin: 0 auto;
   padding: 30px 0;
-  background-color: white;
   display: grid;
   gap: 30px;
   height: auto;
@@ -1061,7 +1057,7 @@ justify-content: space-around;
 }
 
 .product-details {
-    padding: 30px;
+    padding: 20px;
 }
 
 .product-catagory {
@@ -1161,6 +1157,7 @@ justify-content: space-around;
 .all-category-prusacts{
   width: 100%;
   padding: 10px 0;
+  z-index: 1;
 }
 .titel-category{
   display: flex;
@@ -1182,7 +1179,7 @@ justify-content: space-around;
 
 /* modal */
 .stars {
-            color: #e0b35a;
+            color: #ffdb26;
             font-size: 0.9rem;
             margin-bottom: 5px;
         }
@@ -1305,9 +1302,9 @@ justify-content: space-around;
         }
 
         .modal-title {
-            font-family: 'Playfair Display', serif;
+            font-family: var(--font-family);
             font-size: 2.2rem;
-            color: #5d4037;
+            color: var(--primary-color);
             margin-bottom: 15px;
             line-height: 1.2;
         }
@@ -1319,18 +1316,18 @@ justify-content: space-around;
         }
 
         .modal-stars {
-            color: #e0b35a;
+            color: #ffdb26;
             font-size: 1.1rem;
             margin-right: 10px;
         }
 
         .modal-review-count {
-            color: #8d6e63;
+             color: var(--primary-color);
             font-size: 0.9rem;
         }
 
         .modal-description {
-            color: #6d4c41;
+             color: var(--primary-color);
             line-height: 1.7;
             margin-bottom: 25px;
             font-size: 1.05rem;
@@ -1349,7 +1346,7 @@ justify-content: space-around;
 
         .spec-label {
             font-size: 0.85rem;
-            color: #8d6e63;
+             color: var(--primary-color);
             margin-bottom: 5px;
         }
 
@@ -1382,7 +1379,7 @@ justify-content: space-around;
             border: 2px solid #e8d8c9;
             border-radius: 10px;
             background-color: #fff;
-            color: #5d4037;
+             color: var(--primary-color);
             font-weight: 500;
             cursor: pointer;
             transition: all 0.2s ease;
@@ -1424,7 +1421,7 @@ justify-content: space-around;
 
 
         .add-to-cart {
-            background-color: #a8715f;
+            background-color: var(--secondary-color);
             color: white;
             border: none;
             border-radius: 10px;
@@ -1651,9 +1648,10 @@ justify-content: space-around;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: #4caf50;
+    background: var(--secondary-color);
     color: white;
     padding: 12px 20px;
+    font-weight: 700;
     border-radius: 8px;
     opacity: 0;
     transform: translateY(20px);
@@ -1664,3 +1662,14 @@ justify-content: space-around;
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* celebriting */
+  #confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
