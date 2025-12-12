@@ -24,13 +24,21 @@
     <meta name="twitter:description"
         content="Chocolat artisanal premium fabriqué avec passion. Parfait pour offrir ou se faire plaisir.">
     <meta name="twitter:image" content="https://www.tinchocolaty.ma/assets/twitter-image.jpg">
-    
+
 
     <link rel="icon" href="./assets/images/logo.png">
     <link rel="apple-touch-icon" href="./assets/images/logo.png">
 
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- aos animation -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -47,7 +55,7 @@
     <!-- header -->
     <header>
         <div class="logo">
-            <img src="assets/images/logo.png" alt="Tin Chocolaty Logo">
+            <img src="assets/images/logo.png" class="animate__animated animate__rubberBand" alt="Tin Chocolaty Logo">
         </div>
         <nav>
             <ul class="nav-links">
@@ -75,11 +83,12 @@
         <img src="assets/images/item.png" alt="item chocolat" class="item item2">
         <img src="assets/images/item.png" alt="item chocolat" class="item item3">
         <img src="assets/images/item.png" alt="item chocolat" class="item item4">
-        <div class="image-hero">
 
+        <div class="image-hero animate__animated animate__backInLeft">
             <img src="assets/images/hero-banner.png" alt="Delicious chocolates">
         </div>
-        <div class="content-hero">
+
+        <div class="content-hero animate__animated animate__fadeInRightBig">
             <h4>EXCEPTIONAL QUALITY</h4>
             <h1>It's time for a good chocolates 🍫</h1>
             <p>Each select coffee bean reflects our commitment to Peruvian coffee growers, who bring the best select
@@ -90,13 +99,13 @@
 
     <!-- About us -->
     <section class="about" id="about">
-        <h1>Notre Histoire</h1>
+        <h1 data-aos="fade-up">Notre Histoire</h1>
         <div class="about-continer">
             <div class="story-1">
-                <div class="img-story">
+                <div class="img-story" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/images/about-img1.png" loading="lazy" alt="Our Story Image 1">
                 </div>
-                <div class="text-story">
+                <div class="text-story" data-aos="fade-up" data-aos-duration="2000">
                     <h2>Passion et Artisanat</h2>
                     <p>Notre ambition est de faire de la figue, patrimoine naturel du Maroc, un produit élégant en
                         l'associant au chocolat. Enfants, nos vacances chez nos grands-parents à Tétouan suivaient un
@@ -109,7 +118,7 @@
                 </div>
             </div>
             <div class="story-2">
-                <div class="text-story">
+                <div class="text-story" data-aos="fade-up" data-aos-duration="2000">
                     <h2>Passion et Artisanat</h2>
                     <p>TIN Chocolaty offre au fin gourmet l'expérience gustative unique de la figue séchée délicatement
                         haussée au rang de confiserie. Notre enseigne propose un voyage de découverte dans le monde
@@ -122,15 +131,15 @@
                         restant bdeles à notre ambition de leur apporter la perfection dans le mariage et l'équilibre
                         des goûts et textures.</p>
                 </div>
-                <div class="img-story">
+                <div class="img-story" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/images/about-img2.png" loading="lazy" alt="Our Story Image 1">
                 </div>
             </div>
             <div class="story-3">
-                <div class="image-ph">
+                <div class="image-ph" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/images/about-img2.png" loading="lazy" alt="">
                 </div>
-                <div class="text-ph">
+                <div class="text-ph" data-aos="fade-up" data-aos-duration="2000">
                     <h1>Passion et Artisanat</h1>
                     <p>TIN Chocolaty offre au fin gourmet l'expérience gustative unique de la figue séchée délicatement
                         haussée au rang de confiserie. Notre enseigne propose un voyage de découverte dans le monde
@@ -148,7 +157,7 @@
     </section>
 
     <!-- our partners -->
-    <div class="partners-container">
+    <div class="partners-container" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="partners-title">Our Partners</h2>
         <section class="customer-logos">
             <div class="slide"><img src="assets/images/Partners/AMDIE.png" alt="logo"></div>
@@ -164,7 +173,7 @@
     </div>
 
     <!-- footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" >
         <div class="container">
             <div class="footer-content">
 
@@ -256,8 +265,12 @@
 
     <!-- script -->
     <script src="assets/js/main.js"></script>
+    <!-- script aos -->
+    <script>
+        AOS.init();
+    </script>
     <!-- Structured Data (JSON-LD) -->
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [

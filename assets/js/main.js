@@ -70,7 +70,7 @@ fetch("../../cadeux.json")
 
     products.forEach((product) => {
       let card = `
-        <div class="product-card">
+        <div class="product-card" data-aos="fade-up">
           <div class="product-tumb">
             <img src=${product.img} alt="${product.name}">
           </div>
@@ -147,7 +147,7 @@ fetch("../../products.json")
 
     products.forEach((product) => {
       let card = `
-        <div class="product-card">
+        <div class="product-card" data-aos="fade-up">
           <div class="product-tumb">
             <img loading="lazy" src=${product.img} alt="${product.name}">
           </div>
@@ -419,13 +419,11 @@ function openProductModal(product) {
       btn.classList.add("selected");
       modalMainPrice.textContent = btn.dataset.price + " DH";
 
-      // 🔥 حفظ الـ OPTION المختار داخل الـ product
       currentModalProduct.selectedOption = {
         size: btn.textContent.trim(),
         prix: Number(btn.dataset.price),
       };
 
-      // تحديث السعر الأساسي داخل object
       currentModalProduct.prix = Number(btn.dataset.price);
     });
   });
@@ -438,11 +436,23 @@ function closeProductModal() {
   modalOverlay.classList.remove("active");
 }
 
-closeModalBtn.addEventListener("click", closeProductModal);
-
-modalOverlay.addEventListener("click", (e) => {
-  if (e.target === modalOverlay) closeProductModal();
+document.addEventListener("DOMContentLoaded", () => {
+    const closeModalBtn = document.getElementById("closeModal");
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener("click", closeProductModal);
+    }
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const modalOverlay = document.getElementById("modalOverlay");
+    if (modalOverlay) {
+        modalOverlay.addEventListener("click", (e) => {
+            if (e.target === modalOverlay) closeProductModal();
+        });
+    }
+});
+
 
 // ==== CLICK PRODUCT CARD TO OPEN MODAL ====
 function setupModalOpen(products) {
