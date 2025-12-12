@@ -587,108 +587,49 @@ confirmBtn.addEventListener("click", () => {
   }, 500);
 });
 
+const searchInput = document.getElementById("searchInput");
 
+function filterProducts() {
+  const searchValue = searchInput.value.toLowerCase();
+  const activeFilter = document.querySelector(".filter-btn.active").dataset.filter.toLowerCase();
 
+  document.querySelectorAll(".product-card").forEach(card => {
+    const title = card.querySelector("h4").textContent.toLowerCase();
+    const desc = card.querySelector("p").textContent.toLowerCase();
+    const category = card.querySelector(".product-catagory").textContent.toLowerCase().trim();
 
-// animation for celebrite
+    const matchSearch = title.includes(searchValue) || desc.includes(searchValue);
+    const matchFilter = activeFilter === "all" || activeFilter === category;
 
-function Confetti() {
-  var canvas = document.getElementById("confetti");
-  var ctx = canvas.getContext("2d");
+    card.style.display = (matchSearch && matchFilter) ? "block" : "none";
+  });
 
-  var W = window.innerWidth;
-  var H = window.innerHeight;
-  canvas.width = W;
-  canvas.height = H;
-
-  var mp = 150;
-  var types = ["circle", "circle", "triangle", "triangle", "line"];
-  var colors = [
-    [238, 96, 169],
-    [68, 213, 217],
-    [245, 187, 152],
-    [144, 148, 188],
-    [235, 234, 77]
-  ];
-  var angles = [
-    [4, 0, 4, 4],
-    [2, 2, 0, 4],
-    [0, 4, 2, 2],
-    [0, 4, 4, 4]
-  ];
-
-  var particles = [];
-  for (var i = 0; i < mp; i++) {
-    particles.push({
-      x: Math.random() * W,
-      y: Math.random() * H,
-      r: Math.random() * 4 + 1,
-      d: Math.random() * mp,
-      l: Math.floor(Math.random() * 65 - 30),
-      a: angles[Math.floor(Math.random() * angles.length)],
-      c: colors[Math.floor(Math.random() * colors.length)],
-      t: types[Math.floor(Math.random() * types.length)]
-    });
-  }
-
-  function draw() {
-    ctx.clearRect(0, 0, W, H);
-
-    for (var i = 0; i < mp; i++) {
-      var p = particles[i];
-      var op = p.r <= 3 ? 0.4 : 0.8;
-
-      if (p.t === "circle") {
-        ctx.fillStyle = "rgba(" + p.c + ", " + op + ")";
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fill();
-      } 
-      else if (p.t === "triangle") {
-        ctx.fillStyle = "rgba(" + p.c + ", " + op + ")";
-        ctx.beginPath();
-        ctx.moveTo(p.x, p.y);
-        ctx.lineTo(p.x + p.r * p.a[0], p.y + p.r * p.a[1]);
-        ctx.lineTo(p.x + p.r * p.a[2], p.y + p.r * p.a[3]);
-        ctx.closePath();
-        ctx.fill();
-      } 
-      else if (p.t === "line") {
-        ctx.strokeStyle = "rgba(" + p.c + "," + op + ")";
-        ctx.beginPath();
-        ctx.moveTo(p.x, p.y);
-        ctx.lineTo(p.x + p.l, p.y + p.r * 5);
-        ctx.lineWidth = 2;
-        ctx.stroke();
-      }
+  document.querySelectorAll(".titel-category").forEach(titleDiv => {
+    const section = titleDiv.nextElementSibling;
+    const visibleCards = section.querySelectorAll(".product-card:not([style*='display: none'])");
+    if (visibleCards.length === 0) {
+      titleDiv.style.display = "none";
+      section.style.display = "none";
+    } else {
+      titleDiv.style.display = "block";
+      section.style.display = "grid";
     }
-
-    update();
-  }
-
-  function update() {
-    for (var i = 0; i < mp; i++) {
-      var p = particles[i];
-      p.y += Math.cos(p.d) + 1 + p.r / 2;
-      p.x += Math.sin(0) * 2;
-
-      if (p.x > W + 5 || p.x < -5 || p.y > H) {
-        particles[i] = {
-          x: Math.random() * W,
-          y: -10,
-          r: p.r,
-          d: p.d,
-          l: p.l,
-          a: p.a,
-          c: p.c,
-          t: p.t
-        };
-      }
-    }
-  }
-
-  // LOOP ديما 🔥
-  setInterval(draw, 23);
+  });
 }
 
-window.onload = Confetti;
+searchInput.addEventListener("input", filterProducts);
+
+const filterBtns = document.querySelectorAll(".filter-btn");
+
+filterBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    filterBtns.forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    filterProducts();
+  });
+});
+
+
+
+
+

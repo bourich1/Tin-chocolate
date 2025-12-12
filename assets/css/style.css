@@ -1675,3 +1675,49 @@ justify-content: space-around;
   pointer-events: none;
   z-index: 0;
 }
+.filter-section {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#searchInput {
+  width: 60%;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+#searchInput:focus {
+  border-color: #333;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #d5d5d5;
+}
+
+.filter-btn.active {
+  background: #333;
+  color: white;
+}
