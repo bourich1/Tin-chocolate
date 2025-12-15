@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #4a2d26;
-  --secondary-color: #ddb66e;
+  --secondary-color: #dcb66b;
   --white-color: #ffffff;
   --font-family: "Pacifico", cursive;
 }
@@ -515,7 +515,7 @@ justify-content: space-around;
 }
 
 .social-icons a:hover {
-    background-color: #007bff; 
+    background-color: var(--secondary-color); 
     transform: translateY(-3px);
 }
 
@@ -541,7 +541,7 @@ justify-content: space-around;
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: #d4a762;
+        background-color: var(--primary-color);
         color: white;
         border: none;
         cursor: pointer;
@@ -1108,7 +1108,7 @@ justify-content: space-around;
 
 .product-price {
     font-size: 18px;
-    color: #fbb72c;
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -1124,7 +1124,7 @@ justify-content: space-around;
     color: #ffffff;
     transition: 0.3s;
     font-size: 1.5rem;
-     background-color: var(--secondary-color);
+     background-color: var(--primary-color);
      padding: 10px;
      border-radius: 50%;
 }
@@ -1173,9 +1173,9 @@ justify-content: space-around;
     font-size: 1.3rem;
   }
   .line{
-    background-color: #0000003a;
-    width: 80%;
-    height: 1px;
+    background-color: #000000;
+    width: 60%;
+    height: 2px;
   }
 }
 

@@ -147,7 +147,7 @@ fetch("../../products.json")
 
     products.forEach((product) => {
       let card = `
-        <div class="product-card" data-aos="fade-up">
+        <div class="product-card">
           <div class="product-tumb">
             <img loading="lazy" src=${product.img} alt="${product.name}">
           </div>
